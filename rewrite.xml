@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<?charles serialisation-version='2.0' ?>
+<rewriteSet-array>
+  <rewriteSet>
+    <active>true</active>
+    <name>get_method</name>
+    <hosts>
+      <locationPatterns/>
+    </hosts>
+    <rules>
+      <rewriteRule>
+        <active>true</active>
+        <ruleType>9</ruleType>
+        <matchHeader>name</matchHeader>
+        <matchValue>alexandr</matchValue>
+        <matchHeaderRegex>false</matchHeaderRegex>
+        <matchValueRegex>false</matchValueRegex>
+        <matchRequest>false</matchRequest>
+        <matchResponse>false</matchResponse>
+        <newHeader>name</newHeader>
+        <newValue>andrey</newValue>
+        <newHeaderRegex>false</newHeaderRegex>
+        <newValueRegex>false</newValueRegex>
+        <matchWholeValue>false</matchWholeValue>
+        <caseSensitive>false</caseSensitive>
+        <replaceType>2</replaceType>
+      </rewriteRule>
+    </rules>
+  </rewriteSet>
+</rewriteSet-array>
